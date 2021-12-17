@@ -1,0 +1,13 @@
+.container-for3boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-for3boxes > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 20%;
+  height: 250px;
+}
