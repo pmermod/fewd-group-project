@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -100,3 +101,18 @@ a {
     
 }
 
+=======
+.container-for3boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-for3boxes > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 20%;
+  height: 250px;
+}
+>>>>>>> ffb59a2e5a67e2271a2e6b652a7c1f51c4dbabf8
