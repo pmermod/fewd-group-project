@@ -1,104 +1,73 @@
-
-
 /* This is the sample body background color */
 
 body {
-
-background-color: teal;
+  background-color: teal;
 }
-
-
-
 
 /*This is the cat logo css */
 
-#cat-logo  {
-
-    margin-top: 40px;
-    margin-left: 90px;
+#cat-logo {
+  margin-top: 40px;
+  margin-left: 90px;
 }
-
-
-
 
 /*This is the css for the company's name */
 
 #angry-animals {
-
-    color: white;
-    margin-top: -70px ;
-    margin-left: 155px;
-    font-weight: bolder;
-    font-size: 20px;
-    font-style: text-transform;
+  color: white;
+  margin-top: -70px;
+  margin-left: 155px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-style: text-transform;
 }
-
 
 #angry-animals2 {
-
-    color: white;
-    margin-left: 165px ;
-    margin-top: -20px;
-    font-weight: bolder;
-    font-size: 20px;
+  color: white;
+  margin-left: 165px;
+  margin-top: -20px;
+  font-weight: bolder;
+  font-size: 20px;
 }
-
-
 
 /*This is the navigation bar css */
 
 #top-nav-bar {
-
-    
-    margin-left: 920px;
-    margin-top: -60px;
-    
+  margin-left: 920px;
+  margin-top: -60px;
 }
-
-
 
 /*This is the css for the navigation bar links */
 
 a {
+  color: white;
 
-    color: white;
+  padding-right: 75px;
 
-    padding-right: 75px;
-    
-    text-decoration: none;
+  text-decoration: none;
 
-    font-weight: bold;
+  font-weight: bold;
 }
-
-
-
 
 /*This is the div container for the slideshow*/
 
-
 .slider {
-    width: 300px;
-    height: 240px;
-    display: flex;
-    overflow-x: auto;
-    margin-top: 100px;
-    margin-left: 515px;
-    
-  }
-
-
-  
-  
-  /*This is the css for the slideshow slider bar*/
-  
-  .slide {
-    width: 205px;
-    flex-shrink: 0;
-    height: 100%;
-    text-align: right;
-    
+  width: 300px;
+  height: 240px;
+  display: flex;
+  overflow-x: auto;
+  margin-top: 100px;
+  margin-left: 515px;
 }
 
+/*This is the css for the slideshow slider bar*/
+
+.slide {
+  width: 205px;
+  flex-shrink: 0;
+  height: 100%;
+  text-align: right;
+}
 
 /*These are the flex boxes */
 
@@ -108,13 +77,11 @@ a {
   margin-top: 90px;
 }
 
-
 .container-for3boxes > div {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  width: 20%;
+  width: 28%;
   height: 250px;
 }
-
