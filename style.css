@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 
 
 /* This is the sample body background color */
@@ -54,7 +52,7 @@ background-color: teal;
     
     margin-left: 900px;
     margin-top: -60px;
-    overscroll-behavior: contain;
+    
 }
 
 
@@ -101,11 +99,14 @@ a {
     
 }
 
-=======
+
+/*These are the flex boxes */
+
 .container-for3boxes {
   display: flex;
   justify-content: space-evenly;
 }
+
 
 .container-for3boxes > div {
   display: flex;
@@ -115,4 +116,4 @@ a {
   width: 20%;
   height: 250px;
 }
->>>>>>> ffb59a2e5a67e2271a2e6b652a7c1f51c4dbabf8
+
