@@ -15,7 +15,7 @@ background-color: teal;
 #cat-logo  {
 
     margin-top: 40px;
-    margin-left: 30px;
+    margin-left: 90px;
 }
 
 
@@ -27,7 +27,7 @@ background-color: teal;
 
     color: white;
     margin-top: -70px ;
-    margin-left: 95px;
+    margin-left: 155px;
     font-weight: bolder;
     font-size: 20px;
     font-style: text-transform;
@@ -37,7 +37,7 @@ background-color: teal;
 #angry-animals2 {
 
     color: white;
-    margin-left: 110px ;
+    margin-left: 165px ;
     margin-top: -20px;
     font-weight: bolder;
     font-size: 20px;
@@ -50,7 +50,7 @@ background-color: teal;
 #top-nav-bar {
 
     
-    margin-left: 900px;
+    margin-left: 920px;
     margin-top: -60px;
     
 }
@@ -82,7 +82,7 @@ a {
     display: flex;
     overflow-x: auto;
     margin-top: 100px;
-    margin-left: 440px;
+    margin-left: 515px;
     
   }
 
