@@ -1,7 +1,13 @@
 /* This is the sample body background color */
 
+/* Added margin, line-height and font-size to give basic unity to site. */
+
 body {
   background-color: teal;
+  margin-left: 200px;
+  margin-right: 200px;
+  line-height: 1.6em;
+  font-size: 22px;
 }
 
 /*This is the cat logo css */
@@ -84,4 +90,14 @@ a {
   border: 1px solid black;
   width: 28%;
   height: 250px;
+}
+
+/* CSS specific to blog1.html page */
+
+.blog-container {
+  margin-top: 200px;
+}
+
+.blog-container > div {
+  margin-bottom: 50px;
 }
