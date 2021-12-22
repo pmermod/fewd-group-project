@@ -30,7 +30,7 @@ background-color: teal;
     margin-left: 155px;
     font-weight: bolder;
     font-size: 20px;
-    font-style: text-transform;
+    
 }
 
 
@@ -45,12 +45,12 @@ background-color: teal;
 
 
 
-/*This is the navigation bar css */
+/*This is the top navigation bar css */
 
 #top-nav-bar {
 
     
-    margin-left: 920px;
+    margin-left: 820px;
     margin-top: -60px;
     
 }
@@ -96,7 +96,7 @@ a {
     flex-shrink: 0;
     height: 100%;
     text-align: right;
-    
+    padding-right:10px;
 }
 
 
@@ -117,4 +117,48 @@ a {
   width: 20%;
   height: 250px;
 }
+
+
+/*This is the bottom navigation bar css */
+
+#bottom-nav-bar {
+
+    
+  margin-left: 450px;
+  margin-top: 150px;
+  
+  
+}
+
+
+/*Mission statement and header*/
+
+
+#mission-header {
+
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+
+}
+
+
+#mission-statement {
+
+
+  text-align: left;
+  color: white;
+}
+
+
+/*Contact form*/
+
+.contact-info{
+
+
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
 
