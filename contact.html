@@ -1,0 +1,65 @@
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!--This is the back to homepage link-->
+    
+    <h3><a href="/index.html">Home</a></h3>
+
+    
+    <!--This is the Contact Us header-->
+
+    <h1 class="contact-info">Contact Us</h1> <br>
+
+
+     <!--This is the email contact form-->
+    
+    
+    <form style="color: white; text-align: left;">
+
+        <!--Text input firstname box-->
+
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname"  class="email-form" name="fname" size="40"></input><br>
+
+        
+        <!--Text input lastname box-->
+        
+        <label for="lname">Last name</label><br>
+        <input type="text"  id="lname" class="email-form" name="lname" size="40"></input><br>
+
+        
+        <!--Label and 2 radio buttons-->
+        
+        <label for="catdogbuttons">Are you inquiring about your cat or dog?</label><br>
+        <input type="radio" name="size" class="email-form" value="C">Cat</input>
+        <input type="radio" name="size" class="email-form" value="D">Dog</input><br>
+
+        
+        <!--Large text area for comments or suggestions-->
+
+        <label for="Comments">Please share your comments or suggestions:</label><br>
+        <textarea name="comments" rows=20 cols=100 wrap></textarea><br><br>
+
+        
+        <!--Submit and Reset Buttons-->
+        <input type="submit" class="email-form" value="Submit"></input>
+        <input type="reset" class="email-form" value="Reset"></input>
+
+
+    </form>
+    
+</body>
+</html>
