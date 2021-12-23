@@ -13,30 +13,30 @@ body {
 /*This is the cat logo css */
 
 #cat-logo {
-  margin-top: 40px;
-  margin-left: 90px;
+  margin-top: 70px;
+  margin-left: 85px;
 }
 
 /*This is the css for the company's name */
 
 #angry-animals {
-<<<<<<< HEAD
+
 
     color: white;
-    margin-top: -70px ;
+    margin-top: -85px ;
     margin-left: 155px;
     font-weight: bolder;
     font-size: 20px;
+
+}
     
-=======
+/*checking
   color: white;
   margin-top: -70px;
   margin-left: 155px;
   font-weight: bolder;
   font-size: 20px;
-  font-style: text-transform;
->>>>>>> ee8116823ca851d4de77ff72568ba4dbe0400ee7
-}
+  } */
 
 #angry-animals2 {
   color: white;
@@ -46,24 +46,16 @@ body {
   font-size: 20px;
 }
 
-<<<<<<< HEAD
 
-
-/*This is the top navigation bar css */
-
-#top-nav-bar {
 
     
-    margin-left: 820px;
-    margin-top: -60px;
-    
-=======
+
 /*This is the navigation bar css */
 
 #top-nav-bar {
-  margin-left: 920px;
+  margin-left: 500px;
   margin-top: -60px;
->>>>>>> ee8116823ca851d4de77ff72568ba4dbe0400ee7
+
 }
 
 /*This is the css for the navigation bar links */
@@ -71,7 +63,7 @@ body {
 a {
   color: white;
 
-  padding-right: 75px;
+  padding-right: 40px;
 
   text-decoration: none;
 
@@ -81,13 +73,14 @@ a {
 /*This is the div container for the slideshow*/
 
 .slider {
-<<<<<<< HEAD
+
     width: 300px;
-    height: 240px;
+    height: 220px;
     display: flex;
     overflow-x: auto;
     margin-top: 100px;
-    margin-left: 515px;
+    margin-left: 335px;
+    
     
   }
 
@@ -101,25 +94,12 @@ a {
     flex-shrink: 0;
     height: 100%;
     text-align: right;
-    padding-right:10px;
-=======
-  width: 300px;
-  height: 240px;
-  display: flex;
-  overflow-x: auto;
-  margin-top: 100px;
-  margin-left: 515px;
->>>>>>> ee8116823ca851d4de77ff72568ba4dbe0400ee7
+    padding-right:5px;
+    padding-bottom: 25px;
+
 }
 
-/*This is the css for the slideshow slider bar*/
 
-.slide {
-  width: 205px;
-  flex-shrink: 0;
-  height: 100%;
-  text-align: right;
-}
 
 /*These are the flex boxes */
 
@@ -138,14 +118,14 @@ a {
   height: 250px;
 }
 
-<<<<<<< HEAD
+
 
 /*This is the bottom navigation bar css */
 
 #bottom-nav-bar {
 
     
-  margin-left: 450px;
+  margin-left: 290px;
   margin-top: 150px;
   
   
@@ -183,7 +163,7 @@ a {
 }
 
 
-=======
+
 /* CSS specific to blog1.html page */
 
 .blog-container {
@@ -193,4 +173,4 @@ a {
 .blog-container > div {
   margin-bottom: 50px;
 }
->>>>>>> ee8116823ca851d4de77ff72568ba4dbe0400ee7
+
