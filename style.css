@@ -157,9 +157,10 @@ a {
 .contact-info{
 
 
-  text-align: center;
+  text-align: left;
   color: white;
   margin-top: 50px;
+  padding-bottom: 20px;
 }
 
 
@@ -172,5 +173,13 @@ a {
 
 .blog-container > div {
   margin-bottom: 50px;
+}
+
+
+.email-form {
+
+  
+  margin-bottom: 40px;
+  height: 25px;
 }
 
