@@ -78,8 +78,8 @@ a {
     height: 220px;
     display: flex;
     overflow-x: auto;
-    margin-top: 100px;
-    margin-left: 335px;
+    margin-top: 150px;
+    margin-left: 320px;
     
     
   }
@@ -125,14 +125,14 @@ a {
 #bottom-nav-bar {
 
     
-  margin-left: 290px;
+  margin-left: 280px;
   margin-top: 150px;
   
   
 }
 
 
-/*Mission statement and header*/
+/*Mission statement and header styling*/
 
 
 #mission-header {
@@ -175,6 +175,7 @@ a {
   margin-bottom: 50px;
 }
 
+/*email contact form styling*/
 
 .email-form {
 
