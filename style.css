@@ -33,16 +33,13 @@ body {
 /*This is the css for the company's name */
 
 #angry-animals {
-
-
-    color: white;
-    margin-top: -85px ;
-    margin-left: 155px;
-    font-weight: bolder;
-    font-size: 20px;
-
+  color: white;
+  margin-top: -85px;
+  margin-left: 155px;
+  font-weight: bolder;
+  font-size: 20px;
 }
-    
+
 /*checking
   color: white;
   margin-top: -70px;
@@ -59,16 +56,11 @@ body {
   font-size: 20px;
 }
 
-
-
-    
-
 /*This is the navigation bar css */
 
 #top-nav-bar {
   margin-left: 500px;
   margin-top: -60px;
-
 }
 
 /*This is the css for the navigation bar links */
@@ -86,30 +78,24 @@ a {
 /*This is the div container for the slideshow*/
 
 .slider {
-
-    width: 300px;
-    height: 220px;
-    display: flex;
-    overflow-x: auto;
-    margin-top: 200px;
-    margin-left: 320px;
-    
-     }
-
-
-/*This is the css for the slideshow slider bar*/
-  
-  .slide {
-    width: 205px;
-    flex-shrink: 0;
-    height: 100%;
-    text-align: right;
-    padding-right:5px;
-    padding-bottom: 25px;
-
+  width: 300px;
+  height: 220px;
+  display: flex;
+  overflow-x: auto;
+  margin-top: 200px;
+  margin-left: 320px;
 }
 
+/*This is the css for the slideshow slider bar*/
 
+.slide {
+  width: 205px;
+  flex-shrink: 0;
+  height: 100%;
+  text-align: right;
+  padding-right: 5px;
+  padding-bottom: 25px;
+}
 
 /*These are the flex boxes */
 
@@ -128,52 +114,34 @@ a {
   height: 250px;
 }
 
-
-
 /*This is the bottom navigation bar css */
 
 #bottom-nav-bar {
-
-    
   margin-left: 280px;
   margin-top: 150px;
-  
-  
 }
-
 
 /*Mission statement and header styling*/
 
-
 #mission-header {
-
   text-align: center;
   color: white;
   margin-top: 50px;
-
 }
 
-
 #mission-statement {
-
-
   text-align: left;
   color: white;
 }
 
-
 /*Contact form*/
 
-.contact-info{
-
-
+.contact-info {
   text-align: left;
   color: white;
   margin-top: 50px;
   padding-bottom: 20px;
 }
-
-
 
 /* CSS specific to blog1.html page */
 
@@ -188,9 +156,84 @@ a {
 /*email contact form styling*/
 
 .email-form {
-
-  
   margin-bottom: 40px;
   height: 25px;
 }
 
+/*Therapist Page Intro Styling*/
+.text1 {
+  display: flex;
+  color: white;
+  font-size: 25px;
+  width: 700px;
+  justify-content: center;
+  text-align: center;
+}
+
+.img0 {
+  display: flex;
+  position: relative;
+  width: 100px;
+  right: 300px;
+  top: 70px;
+}
+
+.img0b {
+  display: flex;
+  position: relative;
+  width: 100px;
+  left: 250px;
+  top: -70px;
+}
+
+/*Therapists gallery*/
+
+.flexbox1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 750px;
+  gap: 2%;
+}
+
+.therapists {
+  display: flex;
+  position: relative;
+  width: 20%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.therapists:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
