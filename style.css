@@ -258,10 +258,14 @@ a {
 
 .blog-container {
   margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .blog-container > div {
   margin-bottom: 50px;
+  width: 30%;
+  padding: 10px;
 }
 
 /*email contact form styling*/
