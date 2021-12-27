@@ -1,5 +1,3 @@
-
-
 /* Added margin, line-height and font-size to give basic unity to site. */
 
 body {
@@ -13,8 +11,7 @@ body {
 /*main header*/
 
 .header-container {
-
-  background-color:red;
+  background-color: red;
   height: 300px;
   width: 1320px;
   margin-right: -5px;
@@ -22,57 +19,45 @@ body {
   border: solid 15px blue;
   position: fixed;
   top: 0;
-  
-
 }
-
 
 /*Pics at the top of page*/
 
-
 #lama-pic {
-
   margin-top: 65px;
   margin-left: 418px;
 }
 
-
 #tireddog-pic {
-
   margin-top: -179px;
   margin-left: 574px;
 }
 
 #dogteeth-pic {
-
-  margin-top: -178px ;
-  margin-left: 732px ;
+  margin-top: -178px;
+  margin-left: 732px;
 }
 
-#ambulance-pic  {
-
+#ambulance-pic {
   margin-top: -97px;
   margin-left: 999px;
 }
 
 /*Help is on the way*/
 
-#helpontheway  {
-
+#helpontheway {
   color: white;
-  margin-left: 1098px ;
+  margin-left: 1098px;
   margin-top: -45px;
   padding-left: 15px;
   font-weight: bold;
-  
 }
 
 /*This is the cat logo css */
 
 #cat-logo {
-  margin-top:25px;
+  margin-top: 25px;
   margin-left: 30px;
-  
 }
 
 /*This is the css for the company's name */
@@ -85,13 +70,11 @@ body {
   font-size: 20px;
 }
 
-
-
 #angry-animals2 {
   color: white;
   margin-left: 105px;
   margin-top: -28px;
- 
+
   font-weight: bolder;
   font-size: 20px;
 }
@@ -116,26 +99,19 @@ a {
   font-weight: bold;
 }
 
-
 /*header messages*/
 
-
 #header-message {
- color: blue;
- margin-top: 350px;
- text-align: center;
- 
- 
+  color: blue;
+  margin-top: 350px;
+  text-align: center;
 }
 
 #header-message2 {
-
   color: red;
   margin-top: -45px;
   text-align: center;
 }
-
-
 
 /*This is the div container for the slideshow*/
 
@@ -158,11 +134,7 @@ a {
   flex-shrink: 0;
   height: 100%;
   padding-right: -45px;
- 
-  
 }
-
-
 
 /*These are the flex boxes */
 
@@ -170,15 +142,56 @@ a {
   display: flex;
   justify-content: space-evenly;
   margin-top: 90px;
+  margin-bottom: 60px;
 }
 
 .container-for3boxes > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   width: 28%;
-  height: 250px;
+  height: 220px;
+  border: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+}
+
+.container-box1 {
+  background-color: coral;
+}
+
+.container-box2 {
+  background-color: cornflowerblue;
+}
+
+.container-box3 {
+  background-color: rgb(64, 165, 64);
+}
+
+.box1 {
+  background-color: cornsilk;
+  width: 75%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  background-color: rgb(193, 216, 247);
+  width: 75%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  background-color: rgb(184, 233, 184);
+  width: 75%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*This is the bottom navigation bar css */
@@ -186,15 +199,11 @@ a {
 #bottom-nav-bar {
   margin-left: 410px;
   margin-top: 145px;
-  
 }
 
 #contact-us {
-
   color: blue;
-
 }
-
 
 /*Contact form*/
 
