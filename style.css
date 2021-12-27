@@ -169,26 +169,25 @@ a {
 
 .box1 {
   background-color: cornsilk;
-  width: 75%;
+  background-image: url(/img-blog/sheep-1822137_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60%;
   height: 60%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-left: 10%;
-}
-
-.boxlinktext {
-  text-align: center;
-  color: black;
+  align-items: flex-end;
+  font-size: 16px;
 }
 
 .box2 {
   background-color: rgb(193, 216, 247);
   background-image: url(/img-blog/cat-g16994ab48_1280.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 75%;
+  width: 60%;
   height: 60%;
   display: flex;
   justify-content: center;
@@ -198,10 +197,10 @@ a {
 .box3 {
   background-color: rgb(184, 233, 184);
   background-image: url(/img-blog/cat-5836297_1920.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 75%;
+  width: 60%;
   height: 60%;
   display: flex;
   justify-content: center;
@@ -283,7 +282,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 750px;
+  width: 600px;
   gap: 2%;
 }
 
