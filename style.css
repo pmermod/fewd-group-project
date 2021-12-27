@@ -99,7 +99,7 @@ body {
 /*This is the navigation bar css */
 
 #top-nav-bar {
-  margin-left: 450px;
+  margin-left: 449px;
   margin-top: -130px;
   padding-top: 40px;
 }
@@ -121,7 +121,7 @@ a {
 
 
 #header-message {
- color: white;
+ color: blue;
  margin-top: 350px;
  text-align: center;
  
@@ -130,7 +130,7 @@ a {
 
 #header-message2 {
 
-  color: white;
+  color: red;
   margin-top: -45px;
   text-align: center;
 }
@@ -184,8 +184,15 @@ a {
 /*This is the bottom navigation bar css */
 
 #bottom-nav-bar {
-  margin-left: 423px;
+  margin-left: 410px;
   margin-top: 145px;
+  
+}
+
+#contact-us {
+
+  color: blue;
+
 }
 
 
