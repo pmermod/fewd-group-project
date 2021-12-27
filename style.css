@@ -176,9 +176,8 @@ a {
   width: 60%;
   height: 60%;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  font-size: 16px;
+  /*justify-content: center;
+  align-items: flex-end;*/
 }
 
 .box2 {
@@ -190,8 +189,8 @@ a {
   width: 60%;
   height: 60%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;
+  align-items: center;*/
 }
 
 .box3 {
@@ -203,8 +202,8 @@ a {
   width: 60%;
   height: 60%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;
+  align-items: center;*/
 }
 
 /*This is the bottom navigation bar css */
