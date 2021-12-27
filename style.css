@@ -174,10 +174,20 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 10%;
+}
+
+.boxlinktext {
+  text-align: center;
+  color: black;
 }
 
 .box2 {
   background-color: rgb(193, 216, 247);
+  background-image: url(/img-blog/cat-g16994ab48_1280.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 75%;
   height: 60%;
   display: flex;
@@ -187,6 +197,10 @@ a {
 
 .box3 {
   background-color: rgb(184, 233, 184);
+  background-image: url(/img-blog/cat-5836297_1920.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 75%;
   height: 60%;
   display: flex;
