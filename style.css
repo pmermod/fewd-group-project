@@ -2,7 +2,7 @@
 
 body {
   background-color: rgb(76, 206, 195);
-  line-height: 1.6em;
+  /*line-height: 1.6em;*/
   font-size: 20px;
 }
 
@@ -21,11 +21,37 @@ body {
   /* new 12-29-21 below */
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-/*Pics at the top of page*/
+.logo-container {
+  display: flex;
 
-/*#lama-pic {
+}
+
+#cat-logo {
+  /*margin-top: 30px;*/
+  margin-left: 9%;
+}
+
+#angry {
+  color: red;
+}
+
+#angry-animals {
+  color: cornflowerblue;
+  /*margin-top: -75px;*/
+  /*margin-left: 115px;*/
+  margin-top: 10%;
+  /*margin-left: 2%;*/
+  font-weight: bolder;
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Pics at the top of page
+
+#lama-pic {
   margin-top: 65px;
   margin-left: 418px;
 }
@@ -41,29 +67,18 @@ body {
 }
 */
 
-/*This is the cat logo css */
-
-#cat-logo {
-  margin-top: 30px;
-  margin-left: 50px;
-}
-
-/*This is the css for the company's name */
-
-#angry-animals {
-  color: rgb(76, 206, 195);
-  /*margin-top: -75px;*/
-  /*margin-left: 115px;*/
-  font-weight: bolder;
-  font-size: 20px;
-}
-
 /*Help is on the way*/
+
+.helpontheway-container {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 5%;
+}
 
 #helpontheway {
   color: black;
   /*margin-top: -45px;*/
-  padding-left: 15px;
+  /*padding-left: 15px;*/
   font-weight: bold;
 }
 
@@ -87,10 +102,12 @@ body {
 /*This is the navigation bar css */
 
 #top-nav-bar {
+  /*
   position: fixed;
   margin-left: 850px;
   margin-top: -100px;
   padding-top: 40px;
+  */
 }
 
 /*This is the css for the navigation bar links */
