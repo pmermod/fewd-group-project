@@ -25,7 +25,7 @@ body {
 
 /*Pics at the top of page*/
 
-#lama-pic {
+/*#lama-pic {
   margin-top: 65px;
   margin-left: 418px;
 }
@@ -39,22 +39,7 @@ body {
   margin-top: -178px;
   margin-left: 732px;
 }
-
-#ambulance-pic {
-  position: fixed;
-  /*margin-top: -110px;*/
-  /*margin-left: 1300px;*/
-}
-
-/*Help is on the way*/
-
-#helpontheway {
-  color: black;
-  /*margin-left: 1098px;*/
-  margin-top: -45px;
-  padding-left: 15px;
-  font-weight: bold;
-}
+*/
 
 /*This is the cat logo css */
 
@@ -73,12 +58,30 @@ body {
   font-size: 20px;
 }
 
+/*Help is on the way*/
+
+#helpontheway {
+  color: black;
+  /*margin-top: -45px;*/
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+#ambulance-pic {
+  /*position: fixed;*/
+  /*margin-top: -110px;*/
+  /*margin-left: 1300px;*/
+}
+
+
+
+/*
 #angry-animals2 {
   color: rgb(76, 206, 195);
   /*margin-left: 115px;
-  margin-top: -28px;*/
+  margin-top: -28px; 
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 20px;*/
 }
 
 /*This is the navigation bar css */
