@@ -18,9 +18,9 @@ body {
   /*margin-right: -5px;
   margin-left: -199px;*/
   /*border: solid 15px;*/
-  /*position: fixed;*/
-  /*top: 0;
-  left: 0;*/
+  position: fixed;
+  top: 0;
+  /*left: 0;*/
   /* new 12-29-21 below */
   display: flex;
   align-items: center;
