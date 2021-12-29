@@ -5,9 +5,7 @@ html {
 
 body {
   background-color: rgb(76, 206, 195);
-  margin-left: 200px;
-  margin-right: 200px;
-  line-height: 1.6em;
+  /*line-height: 1.6em;*/
   font-size: 20px;
 }
 
@@ -17,14 +15,44 @@ body {
   background-color: white;
   height: 150px;
   width: 100%;
-  margin-right: -5px;
-  margin-left: -199px;
+  /*margin-right: -5px;
+  margin-left: -199px;*/
   /*border: solid 15px;*/
   position: fixed;
   top: 0;
+  left: 0;
+  /* new 12-29-21 below */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
 }
 
-/*Pics at the top of page*/
+.logo-container {
+  display: flex;
+}
+
+#cat-logo {
+  /*margin-top: 30px;*/
+  margin-left: 9%;
+}
+
+#angry {
+  color: red;
+}
+
+#angry-animals {
+  color: cornflowerblue;
+  /*margin-top: -75px;*/
+  /*margin-left: 115px;*/
+  margin-top: 10%;
+  /*margin-left: 2%;*/
+  font-weight: bolder;
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Pics at the top of page
 
 #lama-pic {
   margin-top: 65px;
@@ -40,57 +68,47 @@ body {
   margin-top: -178px;
   margin-left: 732px;
 }
-
-#ambulance-pic {
-  position: fixed;
-  margin-top: -110px;
-  margin-left: 1300px;
-}
+*/
 
 /*Help is on the way*/
 
+.helpontheway-container {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 5%;
+}
+
 #helpontheway {
-  color: white;
-  margin-left: 1098px;
-  margin-top: -45px;
-  padding-left: 15px;
+  color: black;
+  /*margin-top: -45px;*/
+  /*padding-left: 15px;*/
   font-weight: bold;
 }
 
-/*This is the cat logo css */
+/*#ambulance-pic {
+  /*position: fixed;*/
+/*margin-top: -110px;*/
+/*margin-left: 1300px;
+}*/
 
-#cat-logo {
-  margin-top: 30px;
-  margin-left: 50px;
-}
-
-/*This is the css for the company's name */
-
-#angry-animals {
-  color: rgb(76, 206, 195);
-  margin-top: -75px;
-  margin-left: 115px;
-  font-weight: bolder;
-  font-size: 20px;
-}
-
+/*
 #angry-animals2 {
   color: rgb(76, 206, 195);
-  margin-left: 115px;
-  margin-top: -28px;
-
+  /*margin-left: 115px;
+  margin-top: -28px; 
   font-weight: bolder;
   font-size: 20px;
-}
+}*/
 
 /*This is the navigation bar css */
 
-#top-nav-bar {
+/*#top-nav-bar {
+  /*
   position: fixed;
   margin-left: 850px;
   margin-top: -100px;
   padding-top: 40px;
-}
+}*/
 
 /*This is the css for the navigation bar links */
 
@@ -377,19 +395,26 @@ a {
 
 /*More Therapist Info*/
 
+.table0a {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
 .table0 {
   display: flex;
   flex-wrap: wrap;
-  gap: 15%;
+  /*gap: 15%;*/
   flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
+  width: 70%;
   margin-top: 250px;
 }
 
 .table1 {
   display: flex;
   /*width: 75%;*/
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   position: relative;
   /*margin-top: 250px;*/
@@ -400,6 +425,8 @@ a {
 .table2 {
   display: flex;
   /*width: 610px;*/
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   position: relative;
   /*margin-top: 250px;*/
@@ -412,6 +439,7 @@ a {
   /*height: 75px;*/
   position: relative;
   justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
   border: solid 3px white;
   background-color: cornflowerblue;
