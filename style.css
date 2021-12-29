@@ -18,9 +18,9 @@ body {
   /*margin-right: -5px;
   margin-left: -199px;*/
   /*border: solid 15px;*/
-  position: fixed;
-  top: 0;
-  left: 0;
+  /*position: fixed;*/
+  /*top: 0;
+  left: 0;*/
   /* new 12-29-21 below */
   display: flex;
   align-items: center;
@@ -38,7 +38,7 @@ body {
 }
 
 #angry {
-  color: red;
+  color: coral;
 }
 
 #angry-animals {
@@ -48,7 +48,7 @@ body {
   margin-top: 10%;
   /*margin-left: 2%;*/
   font-weight: bolder;
-  font-size: 28px;
+  font-size: 24px;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -98,27 +98,19 @@ body {
   margin-top: -28px; 
   font-weight: bolder;
   font-size: 20px;
-}*/
+}
+/*
+
 
 /*This is the navigation bar css */
-
-/*#top-nav-bar {
-  /*
-  position: fixed;
-  margin-left: 850px;
-  margin-top: -100px;
-  padding-top: 40px;
-}*/
 
 /*This is the css for the navigation bar links */
 
 a {
   color: coral;
-
-  padding-right: 40px;
-
+  font-size: 20px;
+  padding-right: 30px;
   text-decoration: none;
-
   font-weight: bold;
 }
 
