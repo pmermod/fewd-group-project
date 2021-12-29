@@ -387,19 +387,23 @@ a {
 
 /*More Therapist Info*/
 
+#anchorjump {
+  color: white;
+  font-size: 20px;
+}
+
 .table0a {
   display: flex;
   justify-content: center;
-  flex-grow: 1;
+  width: 100%;
 }
 
 .table0 {
   display: flex;
-  flex-wrap: wrap;
-  /*gap: 15%;*/
+  gap: 5%;
   flex-direction: row;
-  width: 70%;
-  margin-top: 250px;
+  width: 67%;
+  margin-top: 225px;
 }
 
 .table1 {
@@ -435,9 +439,10 @@ a {
   margin-bottom: 10px;
   border: solid 3px white;
   background-color: cornflowerblue;
-  font-size: 15px;
-  line-height: 35px;
+  font-size: 5px;
+  line-height: 30px;
   flex-direction: row;
+  flex-grow: 1;
 }
 
 .tablestyling {
@@ -451,7 +456,7 @@ a {
 .spanstyle {
   display: flex;
   color: coral;
-  font-size: 20px;
+  font-size: 10px;
   width: 100%;
   flex-direction: row;
   position: relative;
