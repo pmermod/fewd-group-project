@@ -38,7 +38,7 @@ body {
 }
 
 #angry {
-  color:rgb(76, 206, 195);
+  color: rgb(76, 206, 195);
 }
 
 #angry-animals {
@@ -79,11 +79,11 @@ body {
 }
 
 #helpontheway {
-  color:rgb(76, 206, 195);
+  color: rgb(76, 206, 195);
   /*margin-top: -45px;*/
   /*padding-left: 15px;*/
   font-weight: bold;
-  margin:auto;
+  margin: auto;
 }
 
 /*#ambulance-pic {
@@ -127,8 +127,8 @@ a {
 
 .header {
   display: flex;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header-message {
@@ -169,7 +169,7 @@ a {
   overflow-x: auto;
   margin-top: 220px;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   padding-left: -1px;
   /*border-top: solid 10px grey;
   border-left: solid 10px grey;*/
@@ -276,7 +276,6 @@ a {
 #contact-us {
   color: black;
   text-align: center;
-
 }
 
 /*Contact form*/
@@ -288,18 +287,23 @@ a {
   padding-bottom: 20px;
 }
 
-/* CSS specific to blog1.html page */
+/* CSS for blog1.html page */
 
 .blog-container {
+  
   margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
+  flex;
 }
 
 .blog-container > div {
-  margin-bottom: 20px;
-  width: 30%;
-  padding: 10px;
+  margin: 20px 12px;
+  width: 25%;
+  padding: 15px;
+  border: 1px solid cornflowerblue;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 /*email contact form styling*/
