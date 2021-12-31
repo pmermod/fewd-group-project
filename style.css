@@ -1,4 +1,4 @@
-/* Added margin, line-height and font-size to give basic unity to site. */
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,13 +15,9 @@ body {
   background-color: white;
   height: 150px;
   width: 100%;
-  /*margin-right: -5px;
-  margin-left: -199px;*/
-  /*border: solid 15px;*/
+  margin-left: -8px;
   position: fixed;
   top: 0;
-  /*left: 0;*/
-  /* new 12-29-21 below */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,7 +29,7 @@ body {
 }
 
 #cat-logo {
-  /*margin-top: 30px;*/
+  
   margin-left: 9%;
 }
 
@@ -43,32 +39,12 @@ body {
 
 #angry-animals {
   color: rgb(76, 206, 195);
-  /*margin-top: -75px;*/
-  /*margin-left: 115px;*/
   margin-top: 10%;
-  /*margin-left: 2%;*/
   font-weight: bolder;
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
 }
 
-/* Pics at the top of page
-
-#lama-pic {
-  margin-top: 65px;
-  margin-left: 418px;
-}
-
-#tireddog-pic {
-  margin-top: -179px;
-  margin-left: 574px;
-}
-
-#dogteeth-pic {
-  margin-top: -178px;
-  margin-left: 732px;
-}
-*/
 
 /*Help is on the way*/
 
@@ -80,30 +56,9 @@ body {
 
 #helpontheway {
   color: rgb(76, 206, 195);
-  /*margin-top: -45px;*/
-  /*padding-left: 15px;*/
   font-weight: bold;
   margin: auto;
 }
-
-/*#ambulance-pic {
-  /*position: fixed;*/
-/*margin-top: -110px;*/
-/*margin-left: 1300px;
-}*/
-
-/*
-#angry-animals2 {
-  color: rgb(76, 206, 195);
-  /*margin-left: 115px;
-  margin-top: -28px; 
-  font-weight: bolder;
-  font-size: 20px;
-}
-/*
-
-
-/*This is the navigation bar css */
 
 /*This is the css for the navigation bar links */
 
@@ -170,19 +125,31 @@ a {
   margin-top: 220px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: -1px;
-  /*border-top: solid 10px grey;
-  border-left: solid 10px grey;*/
+  
+  
 }
 
 /*This is the css for the slideshow slider bar*/
 
 .slide {
   width: 1200px;
-  /*flex-shrink: 0;*/
   height: 400px;
-  /*padding-right: -45px;*/
+  
 }
+
+#dog-growling  {
+
+  margin-left: -30px;
+
+}
+
+#gecko-cancode {
+
+margin-left: -30px;
+}
+
+
+
 
 /*These are the flex boxes */
 
@@ -200,7 +167,7 @@ a {
   width: 28%;
   height: 220px;
   border: rgba(0, 0, 0, 0);
-  /*border-radius: 15px;*/
+
 }
 
 .container-box1 {
@@ -274,8 +241,9 @@ a {
 }
 
 #contact-us {
-  color: black;
-  text-align: center;
+  color: white;
+  margin-left: -140px;
+  font-weight: bold;
 }
 
 /*Contact form*/
@@ -344,7 +312,7 @@ a {
 /*Therapists gallery*/
 
 .flexbox1 {
-  margin-top: 150px;
+  margin-top: 180px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -425,31 +393,28 @@ a {
 
 .table1 {
   display: flex;
-  /*width: 75%;*/
+  
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
-  /*margin-top: 250px;*/
   flex-grow: 1;
-  /*left: 50px;*/
+  
 }
 
 .table2 {
   display: flex;
-  /*width: 610px;*/
+  
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
-  /*margin-top: 250px;*/
   flex-grow: 1;
-  /*right: 50px;*/
+  
 }
 
 .tableform {
   display: flex;
-  /*height: 75px;*/
   position: relative;
   justify-content: center;
   align-items: center;
