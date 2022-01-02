@@ -265,7 +265,25 @@ a {
   justify-content: center;
 }
 
-.pup-personals {
+#pup-personals {
+  background: rgb(41, 150, 37);
+  background: linear-gradient(
+    0deg,
+    rgba(41, 150, 37, 1) 0%,
+    rgba(42, 92, 147, 1) 72%
+  );
+
+  color: white;
+  font-size: larger;
+  text-align: center;
+  align-items: center;
+  border: 6px dotted white;
+  display: flex;
+  flex-direction: column;
+}
+
+#vests {
+  width: 75%;
 }
 
 /*email contact form styling*/
