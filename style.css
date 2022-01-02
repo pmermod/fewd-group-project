@@ -1,4 +1,3 @@
-
 html {
   scroll-behavior: smooth;
 }
@@ -28,7 +27,6 @@ body {
 }
 
 #cat-logo {
-  
   margin-left: 9%;
 }
 
@@ -43,7 +41,6 @@ body {
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
 }
-
 
 /*Help is on the way*/
 
@@ -124,8 +121,6 @@ a {
   margin-top: 220px;
   margin-left: auto;
   margin-right: auto;
-  
-  
 }
 
 /*This is the css for the slideshow slider bar*/
@@ -133,22 +128,15 @@ a {
 .slide {
   width: 1200px;
   height: 400px;
-  
 }
 
-#dog-growling  {
-
+#dog-growling {
   margin-left: -30px;
-
 }
 
 #gecko-cancode {
-
-margin-left: -30px;
+  margin-left: -30px;
 }
-
-
-
 
 /*These are the flex boxes */
 
@@ -166,7 +154,6 @@ margin-left: -30px;
   width: 28%;
   height: 220px;
   border: rgba(0, 0, 0, 0);
-
 }
 
 .container-box1 {
@@ -251,26 +238,34 @@ margin-left: -30px;
   text-align: left;
   color: white;
   margin-top: 200px;
-  
 }
 
 /* CSS for blog1.html page */
 
 .blog-container {
-  
   margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
-  
+  justify-content: center;
 }
 
 .blog-container > div {
   margin: 20px 12px;
   width: 25%;
-  padding: 15px;
-  border: 1px solid cornflowerblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: darkslateblue;
+  padding: 20px;
+  border: 1.5px solid cornflowerblue;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 9px;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
   font-size: 18px;
   line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
+
+.pup-personals {
 }
 
 /*email contact form styling*/
@@ -392,24 +387,22 @@ margin-left: -30px;
 
 .table1 {
   display: flex;
-  
+
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
   flex-grow: 1;
-  
 }
 
 .table2 {
   display: flex;
-  
+
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
   flex-grow: 1;
-  
 }
 
 .tableform {
