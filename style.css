@@ -249,13 +249,6 @@ a {
   justify-content: center;
 }
 
-.blog-title {
-  color: coral;
-  background-color: black;
-  font-family: "Courier New", Courier, monospace;
-  padding: 10px;
-}
-
 .blog-container > div {
   margin: 20px 12px;
   width: 25%;
@@ -270,6 +263,13 @@ a {
   line-height: 1.5;
   display: flex;
   justify-content: center;
+}
+
+#blog-title {
+  color: coral;
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
 }
 
 #pup-personals {
