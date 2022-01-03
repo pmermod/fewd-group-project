@@ -278,6 +278,30 @@ a {
   padding: 10px;
 }
 
+#mistletoe-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mistletoe-images {
+  display: flex;
+  justify-content: center;
+}
+
+#bread-mask-image {
+  width: 50%;
+  margin: 3px;
+}
+
+#coffee-filter-image {
+  width: 50%;
+  margin: 3px;
+}
+
+#mistletoe-text {
+  text-align: justify;
+}
+
 #pup-personals {
   background: rgb(41, 150, 37);
   background: linear-gradient(
