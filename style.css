@@ -1,4 +1,3 @@
-
 html {
   scroll-behavior: smooth;
 }
@@ -6,6 +5,13 @@ html {
 body {
   background-color: rgb(76, 206, 195);
   font-size: 20px;
+  background-image: url("https://www.transparenttextures.com/patterns/kuji.png");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /*main header*/
@@ -28,7 +34,6 @@ body {
 }
 
 #cat-logo {
-  
   margin-left: 9%;
 }
 
@@ -43,7 +48,6 @@ body {
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
 }
-
 
 /*Help is on the way*/
 
@@ -124,8 +128,6 @@ a {
   margin-top: 220px;
   margin-left: auto;
   margin-right: auto;
-  
-  
 }
 
 /*This is the css for the slideshow slider bar*/
@@ -133,22 +135,15 @@ a {
 .slide {
   width: 1200px;
   height: 400px;
-  
 }
 
-#dog-growling  {
-
+#dog-growling {
   margin-left: -30px;
-
 }
 
 #gecko-cancode {
-
-margin-left: -30px;
+  margin-left: -30px;
 }
-
-
-
 
 /*These are the flex boxes */
 
@@ -166,7 +161,6 @@ margin-left: -30px;
   width: 28%;
   height: 220px;
   border: rgba(0, 0, 0, 0);
-
 }
 
 .container-box1 {
@@ -251,26 +245,83 @@ margin-left: -30px;
   text-align: left;
   color: white;
   margin-top: 200px;
-  
 }
 
 /* CSS for blog1.html page */
 
 .blog-container {
-  
   margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
-  
+  justify-content: center;
 }
 
 .blog-container > div {
   margin: 20px 12px;
   width: 25%;
-  padding: 15px;
-  border: 1px solid cornflowerblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: darkslateblue;
+  padding: 20px;
+  border: 1.5px solid cornflowerblue;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 9px;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
   font-size: 18px;
   line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
+
+#blog-title {
+  color: coral;
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+}
+
+#mistletoe-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mistletoe-images {
+  display: flex;
+  justify-content: center;
+}
+
+#bread-mask-image {
+  width: 50%;
+  margin: 3px;
+}
+
+#coffee-filter-image {
+  width: 50%;
+  margin: 3px;
+}
+
+#mistletoe-text {
+  text-align: justify;
+}
+
+#pup-personals {
+  background: rgb(41, 150, 37);
+  background: linear-gradient(
+    0deg,
+    rgba(41, 150, 37, 1) 0%,
+    rgba(42, 92, 147, 1) 72%
+  );
+
+  color: white;
+  font-size: larger;
+  text-align: center;
+  align-items: center;
+  border: 6px dotted white;
+  display: flex;
+  flex-direction: column;
+}
+
+#vests {
+  width: 75%;
 }
 
 /*email contact form styling*/
@@ -284,10 +335,20 @@ margin-left: -30px;
 .text1 {
   display: flex;
   color: white;
-  font-size: 25px;
-  width: 700px;
+  margin-bottom: -25px;
+  font-size: 23px;
+  width: 800px;
   justify-content: center;
   text-align: center;
+  font-weight: bold;
+  font-kerning: normal;
+}
+
+.img0a {
+  display: flex;
+  width: 950px;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
 .img0 {
@@ -311,7 +372,7 @@ margin-left: -30px;
 /*Therapists gallery*/
 
 .flexbox1 {
-  margin-top: 180px;
+  margin-top: 150px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -370,10 +431,26 @@ margin-left: -30px;
   display: flex;
   color: white;
   font-size: 17px;
+  text-align: center;
   flex-direction: column;
   flex-grow: 1;
-  margin-left: 7px;
-  margin-top: 7px;
+  /*margin-left: 5px;*/
+  /*margin-top: 7px;*/
+  /*justify-content: center;
+  align-items: center;*/
+}
+
+#anchorjump2 {
+  display: flex;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  flex-direction: column;
+  flex-grow: 1;
+  /*margin-left: 5px;*/
+  /*margin-top: 7px;*/
+  /*justify-content: center;
+  align-items: center;*/
 }
 
 .table0a {
@@ -384,36 +461,39 @@ margin-left: -30px;
 
 .table0 {
   display: flex;
-  gap: 5%;
+  gap: 9%;
   flex-direction: row;
-  width: 67%;
+  width: 71%;
   margin-top: 225px;
 }
 
 .table1 {
   display: flex;
-  
+  /*width: 75%;*/
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
+  /*margin-top: 250px;*/
   flex-grow: 1;
-  
+  /*left: 50px;*/
 }
 
 .table2 {
   display: flex;
-  
+  /*width: 610px;*/
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
+  /*margin-top: 250px;*/
   flex-grow: 1;
-  
+  /*right: 50px;*/
 }
 
 .tableform {
   display: flex;
+  /*height: 75px;*/
   position: relative;
   justify-content: center;
   align-items: center;
@@ -423,7 +503,9 @@ margin-left: -30px;
   font-size: 5px;
   line-height: 30px;
   flex-direction: row;
-  flex-grow: 1;
+  flex-grow: 2;
+  width: 100%;
+  padding: 15px;
 }
 
 .tablestyling {
@@ -434,16 +516,22 @@ margin-left: -30px;
   justify-content: center;
 }
 
+.spanstyle0 {
+  display: flex;
+  flex-direction: row;
+}
+
 .spanstyle {
   display: flex;
   color: coral;
-  font-size: 10px;
+  font-size: 14px;
   width: 100%;
-  flex-direction: row;
+  /*flex-direction: row;*/
   position: relative;
-  justify-content: center;
-  flex-wrap: nowrap;
-  flex: 0, 5, auto;
+  justify-content: baseline;
+
+  flex-wrap: wrap;
+  /*flex: 0, 5, auto;*/
 }
 
 .spanstyle2 {
@@ -455,3 +543,210 @@ margin-left: -30px;
 }
 
 /*Form Styling*/
+
+.profilepic {
+  display: flex;
+  position: relative;
+  width: 50px;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  /*margin-left: -350px;*/
+  /*margin-top: 25px;*/
+  border-radius: 50%;
+  flex-grow: 1;
+  flex-basis: 30%;
+}
+
+.therapisttext {
+  display: flex;
+  font-size: 18px;
+  color: white;
+  align-items: flex-end;
+  flex-basis: 70%;
+}
+
+/*Back to therapists link*/
+
+.backtotherapylink0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 14px;
+}
+
+.backtotherapylink {
+  display: flex;
+  color: white;
+  width: 73%;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.backtotherapylink2 {
+  color: white;
+  font-size: 15px;
+  display: flex;
+}
+
+.backtotherapylink2:hover {
+  transform: scale(1.05);
+}
+
+/*Footer*/
+
+.footerstyling {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: white;
+  color: rgb(76, 206, 195);
+  height: 150px;
+  flex-grow: 1;
+  margin-top: 100px;
+  flex-direction: row;
+  text-align: start;
+}
+
+.footerstyling2 {
+  display: flex;
+  color: rgb(76, 206, 195);
+  justify-content: flex-end;
+  margin-right: 25px;
+  margin-bottom: -10px;
+  font-size: 15px;
+  margin-top: 35px;
+}
+
+.footerstyling3 {
+  display: flex;
+  color: rgb(76, 206, 195);
+  justify-content: flex-end;
+  margin-right: 25px;
+  margin-bottom: -10px;
+  font-size: 15px;
+  margin-top: 35px;
+}
+
+.footerstyling4 {
+  display: flex;
+  color: rgb(76, 206, 195);
+  justify-content: flex-end;
+  margin-right: 25px;
+  margin-bottom: -10px;
+  font-size: 15px;
+  margin-top: 35px;
+}
+
+.footerstyling5 {
+  display: flex;
+  color: rgb(76, 206, 195);
+  justify-content: flex-end;
+  margin-right: 25px;
+  font-size: 15px;
+  margin-top: 35px;
+}
+
+.header-container2 {
+  color: rgb(76, 206, 195);
+  height: 150px;
+  width: 100%;
+  /*margin-right: -5px;
+  margin-left: -199px;*/
+  /*border: solid 15px;*/
+  /*left: 0;*/
+  /* new 12-29-21 below */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  text-align: start;
+}
+
+.footerstyling2:hover {
+  color: coral;
+}
+
+.footerstyling3:hover {
+  color: cornflowerblue;
+}
+
+.footerstyling4:hover {
+  color: rgb(64, 165, 64);
+}
+
+.footerstyling5:hover {
+  color: coral;
+}
+
+.footerstyling6:hover {
+  color: coral;
+}
+
+.footerlogostyling {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: -115px;
+  margin-left: 30px;
+}
+
+.footerstyling6 {
+  display: flex;
+  font-size: 15px;
+  color: rgb(76, 206, 195);
+}
+
+/*Therapy Signup Form*/
+
+.formdisplay0a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.formdisplay0 {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  flex-direction: row;
+  border: solid 3px coral;
+  background-color: cornflowerblue;
+  padding: 20px 20px 150px 20px;
+}
+
+.formdisplay {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.labeldisplay {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.inputdisplay {
+  display: flex;
+  height: 40px;
+}
+
+.inputdisplay2 {
+  display: flex;
+  height: 200px;
+}
+
+.inputdisplay3 {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: coral;
+  padding-top: 20px;
+}
