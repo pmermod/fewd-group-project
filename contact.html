@@ -14,42 +14,70 @@
 
 <body>
 
-    <!--This is the back to homepage link-->
+    <!--This is nav bar-->
     
-    <h3><a href="/index.html">Home</a></h3>
+    <div class="header-container">
+        <div class="logo-container">
+          <a id="cat-logo" href="/index.html"
+            ><img src="/Img/hissingcat.png" width="100px" height="110px"
+          /></a>
+          <p id="angry-animals">
+            <span id="angry">ANGRY</span> ANIMALS <br />ANONYMOUS
+          </p>
+        </div>
+        <div>
+          <nav>
+            <a href="therapy.html">THERAPY</a>
+            <a href="shop.html" id="navlink2">SHOP</a>
+            <a href="about.html" id="navlink3">REGISTRATION</a>
+          </nav>
+        </div>
+        <div class="helpontheway-container">
+          
+          <p id="ambulance-pic">
+            <img
+              src="/Img/ambulance_emergency_hospital_medical_icon.png"
+              width="95px"
+              height="95px"
+            />
+            <p id="helpontheway">Help Is On The Way!</p>
+          </p>
+        </div>
+      </div> 
 
     
     <!--This is the Contact Us header-->
 
-    <h1 class="contact-info">General Inquiries</h1> <br>
+        <h1 class="contact-info">General Inquiries</h1> <br>
 
 
      <!--This is the email contact form-->
     
     
-    <form style="color: white; text-align: left;">
+            <form style="color: white; text-align: left;">
 
         <!--Text input firstname box-->
 
-        <label for="fname">First Name</label><br>
-        <input type="text" id="fname"  class="email-form" name="fname" size="40"></input><br>
+                <label for="fname">First Name</label><br>
+                    <input type="text" id="fname"  class="email-form" name="fname" size="40"></input><br>
 
         
         <!--Text input lastname box-->
         
-        <label for="lname">Last name</label><br>
-        <input type="text"  id="lname" class="email-form" name="lname" size="40"></input><br>
+                <label for="lname">Last name</label><br>
+                    <input type="text"  id="lname" class="email-form" name="lname" size="40"></input><br>
 
         
         <!--Large text area for comments or suggestions-->
 
-        <label for="Comments">Please share your comments or suggestions:</label><br>
-        <textarea name="comments" rows=20 cols=100 wrap></textarea><br><br>
+                <label for="Comments">Please share your comments or suggestions:</label><br>
+                    <textarea name="comments" rows=20 cols=100 wrap></textarea><br><br>
 
         
         <!--Submit and Reset Buttons-->
-        <input type="submit" class="email-form" value="Submit"></input>
-        <input type="reset" class="email-form" value="Reset"></input>
+                
+                <input type="submit" class="email-form" value="Submit"></input>
+                    <input type="reset" class="email-form" value="Reset"></input>
 
 
     </form>
