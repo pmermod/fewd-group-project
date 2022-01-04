@@ -750,3 +750,105 @@ a {
   background-color: coral;
   padding-top: 20px;
 }
+
+/*Shop Header*/
+.headerstyling {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+
+.headerstyling2 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  padding: 20px;
+  border: solid 3px coral;
+}
+
+.shopflexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.shopflexbox2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+}
+
+.shopimg {
+  display: flex;
+  height: 225px;
+  margin: 10px;
+  border-radius: 2%;
+}
+
+.shopimg:hover {
+  transform: scale(1.05);
+}
+
+.shopimgstyling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.shoplabelstyling {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+}
+
+.whitelinestyling {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 500px;
+  margin-left: 40px;
+  margin-top: -18px;
+  margin-right: 15px;
+}
+
+.whitelinestyling2 {
+  display: flex;
+  margin-top: -8px;
+}
+
+.taglinestyling {
+  display: flex;
+  margin-top: -25px;
+  /*color: rgb(64, 165, 64);*/
+  color: white;
+  font-size: 15px;
+}
+
+/*Shop Nav*/
+.shopnav {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 180px;
+  justify-content: flex-end;
+  margin-right: 55px;
+}
+
+.shopnavtext {
+  font-size: 18px;
+  color: white;
+}
+
+.shopnavtext:hover {
+  color: coral;
+  transform: scale(1.05);
+}
