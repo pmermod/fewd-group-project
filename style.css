@@ -34,7 +34,9 @@ body {
 }
 
 #cat-logo {
-  margin-left: 9%;
+  margin-right: 30px;
+  margin-left: 55px;
+  
 }
 
 #angry {
@@ -43,7 +45,8 @@ body {
 
 #angry-animals {
   color: rgb(76, 206, 195);
-  margin-top: 10%;
+  margin-top: 8%;
+  margin-left: -65px;
   font-weight: bolder;
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
@@ -108,7 +111,7 @@ a {
 
 #header-message2 {
   display: flex;
-  color: coral;
+  color: red;
   margin-top: -10px;
   margin-left: -50px;
   text-align: center;
@@ -137,12 +140,17 @@ a {
   height: 400px;
 }
 
+#disturbed-cat {
+
+  margin-left: 2px;
+}
+
 #dog-growling {
-  margin-left: -30px;
+  margin-left: -28px;
 }
 
 #gecko-cancode {
-  margin-left: -30px;
+  margin-left: -29px;
 }
 
 /*These are the flex boxes */
