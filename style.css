@@ -51,21 +51,31 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+#ambulance-pic {
+  margin-right: -20px;
+}
+
 /*Help is on the way*/
 
 .helpontheway-container {
   display: flex;
   align-items: flex-end;
-  margin-right: 5%;
+  flex-direction: row;
+  margin-right: 2%;
 }
 
 #helpontheway {
-  color: red;
+  color: coral;
   font-weight: bold;
   margin: auto;
+  margin-top: -82px;
 }
 
 /*This is the css for the navigation bar links */
+
+.navlinks {
+  margin-left: 50px;
+}
 
 a {
   color: coral;
@@ -84,6 +94,29 @@ a {
 }
 
 /*header messages*/
+
+.headermessagestyling0 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.headermessagestyling {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  border: solid 3px coral;
+}
+
+.headermessagestyling2 {
+  display: flex;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
 
 .header {
   display: flex;
@@ -110,8 +143,7 @@ a {
 
 #header-message2 {
   display: flex;
-  color: red;
-  margin-top: -10px;
+  color: coral;
   margin-left: -50px;
   text-align: center;
   justify-content: center;
@@ -151,13 +183,41 @@ a {
 }
 
 #paws-call {
-  color: brown;
+  color: coral;
   text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
 }
 
 #phone-number {
-  color: red;
+  color: coral;
   text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#phone-number:hover {
+  transform: scale(1.1);
+}
+
+/*Header for featured blogs*/
+.blogheader0 {
+  display: flex;
+  justify-content: center;
+}
+
+.blogheader {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: rgb(100, 149, 237);
+  width: 92%;
+  border: solid 3px white;
+  margin-bottom: -45px;
+  height: 100px;
+  align-items: center;
 }
 
 /*These are the flex boxes */
@@ -205,6 +265,7 @@ a {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: smaller;
+  padding: 5px;
 }
 
 .box2 {
@@ -219,9 +280,10 @@ a {
 }
 
 .box2 > a {
-  color: blue;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: smaller;
+  padding: 5px;
 }
 
 .box3 {
@@ -236,9 +298,10 @@ a {
 }
 
 .box3 > a {
-  color: pink;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: smaller;
+  padding: 5px;
 }
 
 /*This is the bottom navigation bar css */
@@ -816,7 +879,8 @@ a {
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 60px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.3);
+  border: solid white 1px;
   padding: 20px;
 }
 
