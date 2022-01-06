@@ -262,6 +262,13 @@ a {
   margin-top: 200px;
 }
 
+#contact-box  {
+
+  display: flex;
+  margin-left: 5px;
+  flex-direction: column;
+}
+
 /* CSS for blog1.html page */
 
 .blog-container {
