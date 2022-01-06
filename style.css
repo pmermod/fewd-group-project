@@ -359,8 +359,8 @@ a {
 }
 
 #gecko-tile > h3 {
-  background-color: white;
-  color: green;
+  background-color: coral;
+  color: white;
   border-radius: 6px;
   padding: 4px;
   width: 100%;
