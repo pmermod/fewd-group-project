@@ -517,7 +517,7 @@ a {
   justify-content: center;
   position: relative;
   width: 1000px;
-  gap: 2%;
+  /*gap: 2%;*/
 }
 
 .therapists {
@@ -530,6 +530,7 @@ a {
   display: block;
   position: relative;
   width: 100%;
+  margin: 10px;
 }
 
 .overlay {
@@ -581,6 +582,7 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: -100px;
 }
 
 .table0 {
